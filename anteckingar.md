@@ -6,7 +6,9 @@
 
 ### 2021-01-14 (13:00 - 14:00)
 
-- Gör färdigt / repetera funktioner (kortfattat!)
+- Gör färdigt / repetera funktioner
+  - hoursToSeconds, daysToSeconds, weeksToSeconds osv.
+  - volumeOfCylinder
 - if / else
 - Objekt
 - logiska operatorer
