@@ -6,8 +6,9 @@
 
 ### 2021-01-14 (13:00 - 14:00)
 
-- Gör färdigt / repetera funktioner
+- Gör färdigt / repetera funktioner (kortfattat!)
 - if / else
+- Objekt
 - logiska operatorer
 - loopar(for, while)
 - arrayer 
