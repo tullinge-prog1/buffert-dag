@@ -1,6 +1,6 @@
 # Buffert-dag
 
-Vi använder VS Code Live Share idag. Det är ett tillägg som behöver installeras.
+Vi använder VS Code Live Share. Det är ett tillägg (extension) som behöver installeras.
 
 Öppna README.md i preview-läge genom att högerklicka på filen så att den blir mer lättläst.
 
@@ -16,7 +16,7 @@ Vilka av följande koncept tycker DU är viktiga att hinna med idag? Vi kanske i
 ## Koncept
 
 ### Variabel
-- deklarera (sker en gång).
+- deklarera (sker **en** gång).
 - tilldela (kan ske noll, en, eller flera gånger)
 - har ett namn och ett värde (datat)
 - värdet (datat) är en av flera förutbestämda datatyper: string, boolean, number
@@ -26,9 +26,9 @@ Vilka av följande koncept tycker DU är viktiga att hinna med idag? Vi kanske i
 PS: Vi försöker välja vettiga namn, och vi har vissa "riktlinjer" för bra / dåliga namn
 
 ### Operatorer
-- aritmetiska
-- boolean
-- assignment
+- aritmetiska (`+-*/`)
+- boolean (`===`, `!==`, `>`, `<` med flera...)
+- assignment (`=`)
 
 ### Funktioner
 - Funktioner "gör" saker. Det är som programmeringsspråkens **verb**. Sitt! Stå! Klappa hunden! Hämta pengar!
@@ -40,7 +40,7 @@ PS: Vi försöker välja vettiga namn, och vi har vissa "riktlinjer" för bra / 
 - Funktionerna kan också, men behöver inte, returnera data. Alltså skicka tillbaka data efter att de körts färdigt.
 - Variabler som deklarerats i funktioner syns inte utanför. Dom är *lokala*.
 
-En funktion har **ett namn**, **en signatur**, och **en kropp**.
+En funktion har **ett namn**, **noll eller fler parametrar**, och **en funktionskropp**.
 
 ### Programmets flöde
 
