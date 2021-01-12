@@ -30,11 +30,22 @@ PS: Vi försöker välja vettiga namn, och vi har vissa "riktlinjer" för bra / 
 - boolean (`===`, `!==`, `>`, `<` med flera...)
 - assignment (`=`)
 
+## Uttryck
+
+Allt som räknas ut till ett värde är ett **uttryck**. `3 + 3` kan räknas ut till `6`.
+
+- Ett finare ord för att "räkna ut" eller "utvärdera" är att **evaluera**.
+- På engelska heter uttryck **expression**
+
+`"hello" + name` är också ett uttryck, vars värde beroer på vad variabeln `name` råkar har för värde när uttrycket evalueras.
+
+`celsiusToKelvin(23)` är också ett uttryck, eftersom det här också kommer bli ett värde.
+
 ### Funktioner
-- Funktioner "gör" saker. Det är som programmeringsspråkens **verb**. Sitt! Stå! Klappa hunden! Hämta pengar!
+
+Funktioner "gör" saker. Det är som programmeringsspråkens **verb**. Sitt! Stå! Klappa hunden! Hämta pengar! Det finns **inbyggda funktioner** och vi kan också **definiera egna funktioner**.
+
 - När vi använder funktioner säger vi att vi "anropar" eller "kallar på" funktionen.
-- Det finns inbyggda funktioner
-- Vi kan också definiera egna funktioner
 - När man anropar funktioner kan man skicka in data om man vill. Datat man skickar in kallas för **argument**.
 - Om man vill skicka in flera argument så separerar man dem med kommatecken.
 - Funktionerna kan också, men behöver inte, returnera data. Alltså skicka tillbaka data efter att de körts färdigt.
@@ -74,9 +85,32 @@ Exempel på inbyggda objekt:
 
 ### Anonyma funktioner
 
+Anonyma funktioner saknar namn. De används ofta som argument till andra funktioner. T.ex. en clickHandler som beskriver vad som ska hända när du klickar på en knapp.
+
+````javascript
+button.addEventListener("click", function () {
+    transferMoney(500)
+})
+````
+
+Funktionen ovan behöver inte ges något namn eftersom den inte kommer att anropas från någon annan plats i koden.
+
 ### Arrow functions
 
 Med hjälp av [arrow functions](https://www.w3schools.com/js/js_arrow_function.asp) kan man skriva kortare.
+
+### Att lägga ihop strängar
+
+#### Concatenation
+
+`"hello " + firstName + " " + lastName + "!"` kallas för **string concatenation** (konkatenering på svenska).
+Det är som addition för strängar.
+
+### Interpolation
+
+`hello ${firstName} ${lastName}!` kallas för **string interpolation**. Det är som att man fyller i hålen (det innanför måsvingarna) med värden.
+
+Googla på *string interpolation javascript* för att hitta fler exempel!
 
 # Övrigt
 
