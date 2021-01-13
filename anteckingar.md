@@ -10,8 +10,11 @@
   - hoursToSeconds, daysToSeconds, weeksToSeconds osv.
   - volumeOfCylinder
 - if / else
-- Objekt
 - logiska operatorer
+- Objekt
+
+### Vad vi INTE hann med
+
 - loopar(for, while)
 - arrayer 
 
