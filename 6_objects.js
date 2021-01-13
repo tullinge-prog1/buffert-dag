@@ -1,7 +1,7 @@
 
 // Objekt är en datatyp där man kan kombinera annan data
 
-// Det här objektet har 5 properties
+// Variabeln einar är ett objekt med fem properties
 let einar = {
     name: "Einar",          // En property, av typen string
     age: 33,                // En till property, av typen number
