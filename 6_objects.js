@@ -56,3 +56,6 @@ function isSameAge (person1, person2) {
 }
 
 console.log(isSameAge(johan, johan))
+
+// Såhär skapar man ett tomt objekt
+const emptyObject = {}
